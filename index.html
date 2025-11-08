@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thử Thách Logic Của Za Linh 🧠✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Thử Thách Logic Của <span class="highlight">Za Linh</span> 🧠✨</h1>
+    <div class="level">Cấp độ: <span id="level">1</span></div>
+    <div id="question-box">
+      <p id="question-text">Câu hỏi sẽ hiện ở đây...</p>
+      <div id="answers"></div>
+    </div>
+    <div class="result" id="result"></div>
+    <button id="next-btn">Câu tiếp theo</button>
+  </div>
+
+  <audio id="sound-correct" src="https://assets.mixkit.co/sfx/download/mixkit-achievement-bell-600.wav"></audio>
+  <audio id="sound-wrong" src="https://assets.mixkit.co/sfx/download/mixkit-wrong-answer-fail-notification-946.wav"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
